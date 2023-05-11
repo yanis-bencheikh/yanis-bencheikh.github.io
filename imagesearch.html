@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>My Sample Temporary GitHub Website</title>
     </head>
 
     <style>
@@ -20,6 +20,15 @@
     #main-logo {
         width: 25%;
         display: block;
+    }
+
+    #sndmain-logo {
+        width: 20%;
+        display: block
+    }
+
+    #sndmain-page {
+        text-align: center;
     }
 
     #search-input {
@@ -45,20 +54,45 @@
             <a href="advancedsearch.html">Advanced</a>
         </div>
 
-        <p></p>
+        <p>
         <center>
             <img id="main-logo" src="Google_2015_logo.svg.png" alt="Google_2015_logo">
         </center>
-        <p></p>
+        </p>
         
         <form id="main-page" action="https://www.google.com/search">
-            <p></p>
+            <p>
             <input id="search-input" size="50" type="text" name="q">
-            <p></p>
+            </p>
             <p>
             <input class="buttons" type="submit" value="Google Search">
             </p>
             <input type="hidden" type="text" name="tbm" value="isch">
         </form>
+
+<br>
+
+        <p>
+
+        </p>
+        <center>
+            <img id="sndmain-logo" src="DuckDuckGo_logo.svg.png" alt="DuckDuckGo_logo">
+        </center>
+        <p>
+
+        </p>
+        
+        <form id="sndmain-page" action="https://duckduckgo.com/">
+            <p></p>
+            <input id="search-input" size="50" type="text" name="q">
+            <p></p>
+            <p>
+            <input class="buttons" type="submit" value="Search">
+            </p>
+            <input type="hidden" type="text" name="iax" value="images">
+            <input type="hidden" type="text" name="ia" value="images">
+        </form>
+
+
     </body>
 </html>
