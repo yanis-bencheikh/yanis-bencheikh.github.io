@@ -12,6 +12,6 @@ You can perform normal search using either Google or Duck Duck Go search engines
 
 If you want to land directly on the first listed website outputted by Google, you can input your search query and click on the "I'm Feeling Lucky" button.   
 
-You can navigate to the image search page on the top right by cliking the hyperlink and perform an image search using either Google's or Duck Duck Go's search engine.
+You can navigate to the image search page on the top right by clicking the hyperlink and perform an image search using either Google's or Duck Duck Go's search engine.
 
-You can navigate to the advanced search page on the top right by cliking the hyperlink and perform an partially implemented advanced search using Google's search engine.
+You can navigate to the advanced search page on the top right by clicking the hyperlink and perform a partially implemented advanced search using Google's search engine.
