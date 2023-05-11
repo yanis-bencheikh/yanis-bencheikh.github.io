@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+
+    <style>
+    body{
+        font-family: sans-serif;
+    }
+
+    #hlink-other-search {
+        text-align: right;
+    }
+
+    #main-page {
+        text-align: center;
+    }
+
+    #main-logo {
+        width: 25%;
+        display: block;
+    }
+
+    #search-input {
+        border-radius: 15px;
+    }
+
+    .buttons:hover {
+        background-color: gainsboro;
+        border-color: lightgray;
+    }
+
+    .buttons{
+        background-color: lightgray;
+        border-color: white;
+        padding: 4px;
+    }
+
+    </style>
+
+    <body>
+        <div id="hlink-other-search">
+            <a href="index.html">Search</a>
+            <a href="advancedsearch.html">Advanced</a>
+        </div>
+
+        <p></p>
+        <center>
+            <img id="main-logo" src="Google_2015_logo.svg.png" alt="Google_2015_logo">
+        </center>
+        <p></p>
+        
+        <form id="main-page" action="https://www.google.com/search">
+            <p></p>
+            <input id="search-input" size="50" type="text" name="q">
+            <p></p>
+            <p>
+            <input class="buttons" type="submit" value="Google Search">
+            </p>
+            <input type="hidden" type="text" name="tbm" value="isch">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+
+    <style>
+    body{
+        font-family: sans-serif;
+    }
+    
+    #hlink-other-search {
+        text-align: right;
+    }
+
+    #main-logo {
+        text-align: center;
+        width: 25%;
+        display: block
+    }
+
+    #sub {
+        background-color: blue;
+        color: white;
+        border-color: blue;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .qfield {
+        text-align: left;
+    }
+
+    
+
+    </style>
+
+    <body>
+        <div id="hlink-other-search">
+            <a href="index.html">Search</a>
+            <a href="imagesearch.html">Images</a>
+        </div>
+
+        <p></p>
+        <center>
+            <img id="main-logo" src="Google_2015_logo.svg.png" alt="Google_2015_logo">
+        </center>
+        <p></p>
+        
+        <form action="https://google.com/search">
+            Find pages with...
+            <p>
+                all these words:
+                <input class="qfield" type="text" name="as_q">
+            </p>
+
+            <p>
+                this exact word or phrase:
+                <input class="qfield" type="text" name="as_epq">
+            </p>
+
+            <p>
+                any of these words:
+                <input class="qfield" type="text" name="as_oq">
+            </p>
+
+            <p>
+                none of these words:
+                <input class="qfield" type="text" name="as_eq">
+            </p>
+
+            <input id="sub" type="submit" value="Advanced Search">
+
+        </form>
+    </body>
+</html>
