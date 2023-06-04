@@ -4,7 +4,7 @@ Hi! This is my personal GitHub pages website.
 
 # Description
 
-It currently displays a tiny project where I utilised **HTML, CSS and Git** to familiarise myself with web development. 
+It currently displays a tiny project where I utilised **HTML, CSS and Git** to familiarise myself with web development while studying in Harvard's School of Engineering and Applied Sciences' online course *CS50's Web Programming with Python and JavaScript*.. 
 
 # Usage
 
