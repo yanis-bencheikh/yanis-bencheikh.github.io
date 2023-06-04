@@ -1,6 +1,6 @@
 # yanis-bencheikh.github.io
 
-Hi! This is my personal GitHub pages website! 
+Hi! This is my personal GitHub pages website. 
 
 # Description
 
